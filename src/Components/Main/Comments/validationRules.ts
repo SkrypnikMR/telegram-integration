@@ -1,0 +1,1 @@
+export const commentsValidationRules = { comment: [{ required: true, message: 'You must enter your comment' }] };
