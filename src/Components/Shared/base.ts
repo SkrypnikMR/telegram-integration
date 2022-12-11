@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { BaseStyledProps, FlexProps } from './types';
+import { BaseStyledProps, FlexProps, ImgProps } from './types';
 import { BaseStylesMixin, FlexMixin } from './mixins';
 
 export const Span = styled.span<BaseStyledProps & FlexProps>`
@@ -30,13 +30,15 @@ export const StyledLink = styled.a<BaseStyledProps & FlexProps>`
   }
 `;
 
-export const Img = styled.img<BaseStyledProps & FlexProps>`
+export const Img = styled.img<BaseStyledProps & FlexProps & ImgProps>`
   &&&& {
     ${BaseStylesMixin};
   }
   &&&& {
     ${FlexMixin};
   }
+
+  ${({ objectFit }) => objectFit && `object-fit: ${objectFit};`}
 `;
 
 export const Video = styled.video<BaseStyledProps & FlexProps>`

@@ -20,8 +20,7 @@ export default function CatPhotoGallery() {
         <FlexCol
           borderRadius="25px"
           width="auto"
-          height="25rem"
-          minWidth="25rem"
+          maxWidth="300px"
           color="white"
           textAlign="center"
           background="#364d79"
@@ -31,7 +30,8 @@ export default function CatPhotoGallery() {
           <Img
             src={cat}
             alt={`cat-${index}`}
-            height="100%"
+            width={undefined}
+            objectFit="scale-down"
             borderRadius="25px"
           />
         </FlexCol>

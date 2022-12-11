@@ -131,3 +131,7 @@ export interface AdditionalStyledProps {
   focusStyles?: boolean;
   hoverStyles?: boolean;
 }
+
+export interface ImgProps {
+  objectFit?: string;
+}
