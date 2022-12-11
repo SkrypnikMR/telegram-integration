@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/telegram-integration/static/css/main.6944c048.css",
-    "main.js": "/telegram-integration/static/js/main.bf8d79c4.js",
+    "main.css": "/telegram-integration/static/css/main.cf9f0a1b.css",
+    "main.js": "/telegram-integration/static/js/main.8e0b73f3.js",
     "static/media/first.jpg": "/telegram-integration/static/media/first.96cd0d6a8bdbee885955.jpg",
     "static/media/third.jpg": "/telegram-integration/static/media/third.11310ca6dc9403e727db.jpg",
     "static/media/second.jpg": "/telegram-integration/static/media/second.0fe4ea84126f7e3f4761.jpg",
     "index.html": "/telegram-integration/index.html",
-    "main.6944c048.css.map": "/telegram-integration/static/css/main.6944c048.css.map",
-    "main.bf8d79c4.js.map": "/telegram-integration/static/js/main.bf8d79c4.js.map"
+    "main.cf9f0a1b.css.map": "/telegram-integration/static/css/main.cf9f0a1b.css.map",
+    "main.8e0b73f3.js.map": "/telegram-integration/static/js/main.8e0b73f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6944c048.css",
-    "static/js/main.bf8d79c4.js"
+    "static/css/main.cf9f0a1b.css",
+    "static/js/main.8e0b73f3.js"
   ]
 }
